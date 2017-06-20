@@ -1,5 +1,5 @@
 {
-  "name": "NodeJS Rest Rest API implementation of Heroku Redis by Luciano Straga",
+  "name": "NodeJS Rest Rest API",
   "description": "A Redis Rest API with NodeJS using Express JS and Redis",
   "repository": "https://github.com/lucianostraga/heroku-redis-node-rest-api",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
