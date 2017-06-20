@@ -1,0 +1,23 @@
+{
+  "name": "redis-demo-node",
+  "version": "0.2.0",
+  "description": "Redis Demo with Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "redis": "^2.6.2",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
