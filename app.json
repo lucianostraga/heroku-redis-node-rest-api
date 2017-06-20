@@ -7,8 +7,8 @@
   "addons": [
     "heroku-redis",
     {
-      "plan": "heroku-redis",
-      "as": "hobby-dev"
+      "plan": "hobby-dev",
+      "as": "REDIS"
     }
   ]
 }
