@@ -1,11 +1,10 @@
 {
   "name": "Node Rest API",
-  "description": "A Redis Rest API with NodeJS using Express JS and Redis",
+  "description": "A Heroku Redis REST API with NodeJS using Express JS",
   "repository": "https://github.com/lucianostraga/heroku-redis-node-rest-api",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static","redis","heroku"],
   "addons": [
-        "rediscloud:30",
         "heroku-redis"
     ]
 }
