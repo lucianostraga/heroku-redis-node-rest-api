@@ -5,7 +5,7 @@
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static","redis","heroku"],
   "addons": [
-    "redis",
+    "heroku-redis",
     {
       "plan": "heroku-redis",
       "as": "hobby-dev"
