@@ -6,7 +6,7 @@
   "keywords": ["node", "express", "static","redis","heroku"],
   "addons": [
     {
-      "plan": "heroku-redis",
+      "plan": "heroku-redis:hobby-dev",
       "as": "REDIS"
     }
   ]
