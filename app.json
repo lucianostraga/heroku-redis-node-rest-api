@@ -5,6 +5,9 @@
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static","redis","heroku"],
   "addons": [
-    "heroku-redis"
+    {
+      "plan": "heroku-redisv",
+      "as": "REDIS"
+    }
   ]
 }
