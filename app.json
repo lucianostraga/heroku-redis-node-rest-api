@@ -1,7 +1,14 @@
 {
-  "name": "Node.js Sample",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-sample",
+  "name": "NodeJS Rest Rest API implementation of Heroku Redis by Luciano Straga",
+  "description": "A Redis Rest API with NodeJS using Express JS and Redis",
+  "repository": "https://github.com/lucianostraga/heroku-redis-node-rest-api",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"]
+  "keywords": ["node", "express", "static","redis","heroku"],
+  "addons": [
+    "heroku-redis",
+    {
+      "plan": "hobby-dev",
+      "as": "Redis"
+    }
+  ]
 }
