@@ -5,10 +5,10 @@
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static","redis","heroku"],
   "addons": [
-    "heroku-redis",
+    "redis",
     {
-      "plan": "hobby-dev",
-      "as": "Redis"
+      "plan": "heroku-redis",
+      "as": "hobby-dev"
     }
   ]
 }
